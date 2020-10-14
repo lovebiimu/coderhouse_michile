@@ -1,0 +1,82 @@
+@import "colores";
+@extends
+
+.blog__contenido {
+	background-color: #f8f5ed;
+	font-family: 'montserrat', sans-serif;
+	font-size: 14px;
+	color: #808080;
+	
+}
+
+.blog__contenido--nuevo {
+	background-color:pink;
+	@extends blog__contenido;
+}
+
+
+.blog__titulos {
+	font-family: 'Dosis', sans-serif;
+	font-size: 60px;
+	color: #EC5800;
+	text-align: left;
+	background-color: #e5f3f3;
+	border-radius: 8px;
+}
+
+.blog__titulos--nuevo {
+	@extends blog__titulos;
+	color: white;
+	background-color: $persimmon;
+}
+
+
+$title-font-size: 46px;
+$paragraph: 16px;
+$title2: 26px;
+
+h1 {
+	font-size: $title-font-size;
+	color: $persimmon;
+}
+
+h2 {
+	font-size: $title2;
+	text-align: center;
+	color: $pearl;
+}
+
+p{
+	font-size: $paragraph;
+	text-align: justify;
+
+
+	a{
+
+	text-decoration: none;
+	background-color: blue;
+	color: $persimmon;
+
+	}
+}
+
+
+
+$ancho: 1280px;
+$yolk: #ffce81;
+$eggshell: #f0ead6;
+
+.box {
+	background-color: $eggshell;
+	width: $ancho;
+	padding: 5px;
+
+}
+
+.box_2 {
+	background-color: $yolk;
+	width: ($ancho/2)-50;
+}
+
+
+

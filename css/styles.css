@@ -1,0 +1,281 @@
+*   {
+       margin: 0; 
+       padding: 0;
+     }
+
+h1 {
+  color:#CC886E;
+  font-family: 'Dosis', sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  color:#94abb5;
+  font-family: 'Dosis', sans-serif;
+  font-size: 40px;
+
+}
+
+h3 {
+  text-transform:uppercase;
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+}
+
+h5 {
+  text-transform:uppercase;
+  font-size: 20px;
+
+}
+
+li {
+  color: gray;
+  display: block;
+  text-shadow: #FFFF;
+
+}
+
+
+.flexContainerNav {
+  display:flex;
+  flex-direction:row;
+  justify-content: flex-end;
+  align-items: center;
+  font-family:'Dosis', sans-serif;
+  font-size: 14px;
+  grid-area: header;
+  padding: 0px, 20px, 0px, 20px;
+  justify-content: space-around;
+}
+
+
+.flexContainerNav a {
+  display:flex;
+  color: white;
+  font-style: bold;
+  text-decoration: none;
+  size: 14px;
+
+}
+
+
+#pie a {
+  color: #000;
+}
+
+
+#pie { 
+      color: white;
+      background-color: none;
+      font-family: 'Montserrat', sans-serif;
+      margin: none;
+      text-align: left;
+      position: absolute;
+      height: 200px;
+      width: 100%;
+
+}
+
+.flexPie {
+display:flex;
+justify-content: left;
+font-family:'Montserrat', sans-serif;
+font-size: 12px;
+height: 200px;
+position: absolute;
+}
+
+
+.flexItemPie {
+  display:inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  height: 100px;
+  width:200px;
+  margin: 20px;
+  color:white;
+  align-content: left;
+}
+
+.sociales {
+  display:flex;
+  justify-content:space-around
+  padding: 10px;
+  border: 10px;
+  margin: 10px;
+}
+
+
+.contenedor {
+  position:relative;
+  text-align:left;
+  color:white;
+  display:inline-block;
+}
+
+
+.texto {
+  position:absolute;
+  text-align: justify;
+  top: 160px;
+  left:40px;
+  color:white;
+  font-size: 30px;
+  text-shadow: 2px 2px #000000;
+  font-family: 'Montserrat', sans-serif;
+  width:900px;
+}
+
+a:hover {
+  color: #b87409;
+}
+
+
+.bg-light {
+    background-color: #E4D89A!important;
+}
+
+.textoslide {
+  size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-shadow: 4px 4px 4px #0000;
+}
+
+.header {
+  background: url(../imgs/huevosg.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 400px;
+}
+
+.header .navbar {
+  background-color: transparent !important;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+p.uno {
+  font-size:20px;
+  text-align:justify;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 27px;
+    line-height: 90%;
+    text-shadow: 10px, 10px #000000;
+    font-family: 'Montserrat',sans-serif;
+}
+
+/*social media icons flipable*/
+
+body {
+    background-color: #f7f6f6
+}
+
+.social-list {
+    display: inline-flex
+}
+
+.social-list li {
+    list-style: none;
+    margin-right: 10px
+}
+
+.maincard {
+    position: relative;
+    width: 120px;
+    height: 80px
+}
+
+.thecard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease
+}
+
+.thecard:hover {
+    transform: rotateY(180deg)
+}
+
+.thefront {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: hidden;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #eee;
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    padding: 4px
+}
+
+.theback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: hidden;
+    color: #fff;
+    border-radius: 10px;
+    transform: rotateY(180deg);
+    border: 1px solid #eee;
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    padding: 4px
+}
+
+.social-text small {
+    font-size: 20px
+}
+
+@media (max-width:700px) {
+    .social-list {
+        display: block
+    }
+}
+
+.facebook {
+    background: #3b5998
+}
+
+.instagram {
+    background: #3f729b
+}
+
+.youtube {
+    background: #ff0000
+}
+
+.whatsapp {
+    background: #4dc247
+}
+
+.pinterest {
+    background: #cb2027
+}
+
+element.style {
+}
+.font-weight-bold {
+    font-weight: 1!important;
+}
+
+.cajatexto {
+  display:flexbox;
+  display: inline-block;
+}

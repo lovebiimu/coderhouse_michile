@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contáctanos para resolver todas tus dudas.">
+  <meta name="keywords" content= "huevos felices, huevos orgánicos, gallinas felices, libre pastoreo, alimentación orgánica">
+	<!--bootstrap css-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	 <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;700;800&family=Montserrat&display=swap" rel="stylesheet">
+	<link rel= "stylesheet" href="css/styles.css">
+
+	<title>Contacto - ¡Huevos felices!</title>
+</head>
+<body>
+	<header class="header">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html"><img src="imgs/logotexto.png" width="300px"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="nosotros.html">Quiénes somos<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="blog.html">Noticias</a>
+      </li>
+      <li class="nav-item dropdown">
+      	<li class="nav-item">
+      		<a class="nav-link" href="ubicacion.html">Encuéntranos</a>
+      	</li>
+      	<li class="nav-item">
+      		<a class="nav-link" href="productos.html">Productos</a>
+      	</li>
+      	<li class="nav-item">
+      		<a class="nav-link" href="contacto.html">Contáctanos</a>
+      	</li>
+  </div>
+</nav>
+</header>
+
+<div class="container">
+<p align="center">
+	<!--Section: Contact v.2-->
+<section class="mb-4">
+
+    <!--Section heading-->
+    <h1 class="h1-responsive font-weight-bold text-center my-4">Contáctanos</h1>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">¿Tienes alguna duda o necesitas asistencia? Contáctanos para cualquier tipo de información que requieras, estaremos encantados de atenderte</p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Tu nombre</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Tu correo</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Asunto</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Tu mensaje</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>Patagua Orilla en Pichidegua. Región de O’Higgins.</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>+56 9 71748750</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>contacto@michilehuevos.cl</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
+    <!--Fin de formulario--></p>
+</div>
+
+<div class="container mt-5 mb-5 d-flex justify-content-center">
+    <ul class="social-list">
+        <li>
+            <div class="maincard p-3">
+                <div class="thecard">
+                    <div class="thefront text-center py-4 facebook">
+                        <div class="social-icon"> <i class="fa fa-facebook fa-2x"></i> </div>
+                    </div>
+                    <div class="theback py-3 px-3 text-center facebook">
+                        <div class="social-text mt-1"> <small class="font-weight-bold">Facebook</small> </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="maincard p-3">
+                <div class="thecard">
+                    <div class="thefront text-center py-4 instagram">
+                        <div class="social-icon"> <i class="fa fa-instagram fa-2x"></i> </div>
+                    </div>
+                    <div class="theback py-3 px-3 text-center instagram">
+                        <div class="social-text mt-1"> <small class="font-weight-bold">Instagram</small> </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        
+            <div class="maincard p-3">
+                <div class="thecard">
+                    <div class="thefront text-center py-4 whatsapp">
+                        <div class="social-icon"> <i class="fa fa-whatsapp fa-2x"></i> </div>
+                    </div>
+                    <div class="theback py-3 px-3 text-center whatsapp">
+                        <div class="social-text mt-1"> <small class="font-weight-bold">Whatsapp</small> </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+<!-- Footer -->
+<footer class="page-footer font-small stylish-color-dark pt-4">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-4 mx-auto">
+
+        <!-- Content -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Encuéntranos</h5>
+        <p>Felices te atenderemos para resolver tus dudas y requerimientos.<br>
+        Nos ubicamos en Patagua Orilla en Pichidegua. Región de O’Higgins.<br>
+        Fono: +5690000000 de Lunes a Viernes de 9:00 a 17:00 hrs (excepto festivos)</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Navegación</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Inicio</a>
+          </li>
+          <li>
+            <a href="#!">Productos</a>
+          </li>
+          <li>
+            <a href="#!">Noticias</a>
+          </li>
+          <li>
+            <a href="#!">Quiénes somos</a>
+          </li>
+          <li>
+          	<a href="#!">Dónde estamos</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <hr>
+
+  <!-- Social buttons -->
+  <ul class="list-unstyled list-inline text-center">
+    <li class="list-inline-item">
+      <a class="btn-floating btn-fb mx-1">
+        <i class="fab fa-facebook-f"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="btn-floating btn-tw mx-1">
+        <i class="fab fa-twitter"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="btn-floating btn-gplus mx-1">
+        <i class="fab fa-google-plus-g"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="btn-floating btn-li mx-1">
+        <i class="fab fa-linkedin-in"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="btn-floating btn-dribbble mx-1">
+        <i class="fab fa-dribbble"> </i>
+      </a>
+    </li>
+  </ul>
+  <!-- Social buttons -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Todos los derechos reservados
+    <a href="https://ejemplo.com/"> Mi Chile - Huevos felices</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+	  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

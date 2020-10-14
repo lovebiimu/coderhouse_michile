@@ -1,0 +1,48 @@
+@extends .blog__contenido {
+  background-color: #f8f5ed;
+  font-family: 'montserrat', sans-serif;
+  font-size: 14px;
+  color: #808080; }
+
+.blog__contenido--nuevo {
+  background-color: pink;
+  @extends blog__contenido; }
+
+.blog__titulos {
+  font-family: 'Dosis', sans-serif;
+  font-size: 60px;
+  color: #EC5800;
+  text-align: left;
+  background-color: #e5f3f3;
+  border-radius: 8px; }
+
+.blog__titulos--nuevo {
+  @extends blog__titulos;
+  color: white;
+  background-color: #EC5800; }
+
+h1 {
+  font-size: 46px;
+  color: #EC5800; }
+
+h2 {
+  font-size: 26px;
+  text-align: center;
+  color: #fafbf5; }
+
+p {
+  font-size: 16px;
+  text-align: justify; }
+  p a {
+    text-decoration: none;
+    background-color: blue;
+    color: #EC5800; }
+
+.box {
+  background-color: #f0ead6;
+  width: 1280px;
+  padding: 5px; }
+
+.box_2 {
+  background-color: #ffce81;
+  width: 590px; }
